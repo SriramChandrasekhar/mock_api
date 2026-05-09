@@ -41,6 +41,14 @@ server.use((req, res, next) => {
 /**
  * Auto-attach tenantId + defaults on create
  */
+server.post('/acBookings', (req, res, next) => {
+    req.body.title = req.body.title;
+    req.body.description = req.body.description;
+    req.body.status = req.body.status;
+    req.body.createdAt = new Date().toISOString();
+    next();
+});
+
 server.post('/supportTickets', (req, res, next) => {
     req.body.title = req.body.title;
     req.body.description = req.body.description;
@@ -63,6 +71,9 @@ server.post('/foodOrder', (req, res, next) => {
  */
 server.use((req, res, next) => {
     if (req.method === 'GET' && req.path.startsWith('/supportTickets')) {
+        req.query.tenantId = req.tenantId;
+    }
+    if (req.method === 'GET' && req.path.startsWith('/acBookings')) {
         req.query.tenantId = req.tenantId;
     }
     next();
