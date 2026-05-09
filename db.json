@@ -1,3 +1,389 @@
 {
-  "supportTickets": []
+    "supportTickets": [],
+    "foodMenu": [
+        {
+            "name": "Margherita Pizza",
+            "description": "Classic pizza with tomato, mozzarella, and basil",
+            "category": "Pizza",
+            "foodType": "veg",
+            "cuisine": "italian",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Pepperoni Pizza",
+            "description": "Pizza topped with pepperoni and cheese",
+            "category": "Pizza",
+            "foodType": "non_veg",
+            "cuisine": "italian",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Veggie Burger",
+            "description": "Grilled vegetable patty with lettuce and sauce",
+            "category": "Burger",
+            "foodType": "veg",
+            "cuisine": "american",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Cheeseburger",
+            "description": "Beef patty with cheese and pickles",
+            "category": "Burger",
+            "foodType": "non_veg",
+            "cuisine": "american",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Paneer Butter Masala",
+            "description": "Cottage cheese cubes in creamy tomato gravy",
+            "category": "Curry",
+            "foodType": "veg",
+            "cuisine": "indian",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Butter Chicken",
+            "description": "Chicken cooked in rich buttery tomato sauce",
+            "category": "Curry",
+            "foodType": "non_veg",
+            "cuisine": "indian",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Masala Dosa",
+            "description": "Crispy rice crepe stuffed with spiced potatoes",
+            "category": "Breakfast",
+            "foodType": "veg",
+            "cuisine": "indian",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Idli Sambar",
+            "description": "Steamed rice cakes with lentil stew",
+            "category": "Breakfast",
+            "foodType": "veg",
+            "cuisine": "indian",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Chicken Biryani",
+            "description": "Fragrant basmati rice with spiced chicken",
+            "category": "Rice",
+            "foodType": "non_veg",
+            "cuisine": "indian",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Veg Biryani",
+            "description": "Aromatic rice cooked with mixed vegetables",
+            "category": "Rice",
+            "foodType": "veg",
+            "cuisine": "indian",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Sushi Roll",
+            "description": "Rice roll with vegetables and seaweed",
+            "category": "Sushi",
+            "foodType": "veg",
+            "cuisine": "japanese",
+            "basePriceUSD": 8
+        },
+        {
+            "name": "Salmon Nigiri",
+            "description": "Fresh salmon over pressed sushi rice",
+            "category": "Sushi",
+            "foodType": "non_veg",
+            "cuisine": "japanese",
+            "basePriceUSD": 9
+        },
+        {
+            "name": "Pad Thai",
+            "description": "Stir-fried noodles with peanuts and vegetables",
+            "category": "Noodles",
+            "foodType": "veg",
+            "cuisine": "thai",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Chicken Pad Thai",
+            "description": "Thai noodles stir-fried with chicken and tamarind sauce",
+            "category": "Noodles",
+            "foodType": "non_veg",
+            "cuisine": "thai",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Tacos",
+            "description": "Corn tortillas filled with beans and salsa",
+            "category": "Street Food",
+            "foodType": "veg",
+            "cuisine": "mexican",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Chicken Tacos",
+            "description": "Tortillas filled with grilled chicken and toppings",
+            "category": "Street Food",
+            "foodType": "non_veg",
+            "cuisine": "mexican",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Falafel Wrap",
+            "description": "Crispy falafel wrapped in pita with tahini",
+            "category": "Wrap",
+            "foodType": "veg",
+            "cuisine": "middle_eastern",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Shawarma",
+            "description": "Spiced meat slices wrapped in flatbread",
+            "category": "Wrap",
+            "foodType": "non_veg",
+            "cuisine": "middle_eastern",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Caesar Salad",
+            "description": "Lettuce, croutons, parmesan with Caesar dressing",
+            "category": "Salad",
+            "foodType": "veg",
+            "cuisine": "continental",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Chicken Caesar Salad",
+            "description": "Classic Caesar salad topped with grilled chicken",
+            "category": "Salad",
+            "foodType": "non_veg",
+            "cuisine": "continental",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Tom Yum Soup",
+            "description": "Spicy Thai soup with herbs and mushrooms",
+            "category": "Soup",
+            "foodType": "veg",
+            "cuisine": "thai",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Chicken Tom Yum",
+            "description": "Spicy Thai soup with chicken and herbs",
+            "category": "Soup",
+            "foodType": "non_veg",
+            "cuisine": "thai",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Ramen",
+            "description": "Noodle soup with vegetables in miso broth",
+            "category": "Noodles",
+            "foodType": "veg",
+            "cuisine": "japanese",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Chicken Ramen",
+            "description": "Japanese noodle soup with chicken and egg",
+            "category": "Noodles",
+            "foodType": "non_veg",
+            "cuisine": "japanese",
+            "basePriceUSD": 8
+        },
+        {
+            "name": "Fried Rice",
+            "description": "Stir-fried rice with vegetables and soy sauce",
+            "category": "Rice",
+            "foodType": "veg",
+            "cuisine": "chinese",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Chicken Fried Rice",
+            "description": "Fried rice tossed with chicken and sauces",
+            "category": "Rice",
+            "foodType": "non_veg",
+            "cuisine": "chinese",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Spring Rolls",
+            "description": "Crispy rolls stuffed with vegetables",
+            "category": "Appetizer",
+            "foodType": "veg",
+            "cuisine": "chinese",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Chicken Spring Rolls",
+            "description": "Crunchy rolls filled with chicken and veggies",
+            "category": "Appetizer",
+            "foodType": "non_veg",
+            "cuisine": "chinese",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Pasta Alfredo",
+            "description": "Creamy white sauce pasta with herbs",
+            "category": "Pasta",
+            "foodType": "veg",
+            "cuisine": "italian",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Chicken Alfredo Pasta",
+            "description": "Pasta in creamy sauce with grilled chicken",
+            "category": "Pasta",
+            "foodType": "non_veg",
+            "cuisine": "italian",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Greek Salad",
+            "description": "Salad with olives, feta, cucumber, and tomato",
+            "category": "Salad",
+            "foodType": "veg",
+            "cuisine": "greek",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Grilled Fish",
+            "description": "Herb-seasoned grilled fish fillet",
+            "category": "Main Course",
+            "foodType": "non_veg",
+            "cuisine": "mediterranean",
+            "basePriceUSD": 9
+        },
+        {
+            "name": "Hummus Platter",
+            "description": "Chickpea dip served with pita bread",
+            "category": "Appetizer",
+            "foodType": "veg",
+            "cuisine": "middle_eastern",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Quesadilla",
+            "description": "Grilled tortilla with cheese and veggies",
+            "category": "Snack",
+            "foodType": "veg",
+            "cuisine": "mexican",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Chicken Quesadilla",
+            "description": "Tortilla stuffed with cheese and chicken",
+            "category": "Snack",
+            "foodType": "non_veg",
+            "cuisine": "mexican",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Pho",
+            "description": "Vietnamese noodle soup with herbs",
+            "category": "Soup",
+            "foodType": "veg",
+            "cuisine": "vietnamese",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Beef Pho",
+            "description": "Vietnamese noodle soup with beef slices",
+            "category": "Soup",
+            "foodType": "non_veg",
+            "cuisine": "vietnamese",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Bibimbap",
+            "description": "Korean rice bowl with vegetables and egg",
+            "category": "Rice",
+            "foodType": "veg",
+            "cuisine": "korean",
+            "basePriceUSD": 6
+        },
+        {
+            "name": "Chicken Bibimbap",
+            "description": "Rice bowl with chicken, veggies, and sauce",
+            "category": "Rice",
+            "foodType": "non_veg",
+            "cuisine": "korean",
+            "basePriceUSD": 7
+        },
+        {
+            "name": "Croissant Sandwich",
+            "description": "Flaky croissant filled with veggies and cheese",
+            "category": "Breakfast",
+            "foodType": "veg",
+            "cuisine": "french",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Ham Croissant Sandwich",
+            "description": "Croissant filled with ham and cheese",
+            "category": "Breakfast",
+            "foodType": "non_veg",
+            "cuisine": "french",
+            "basePriceUSD": 5
+        },
+        {
+            "name": "Pancakes",
+            "description": "Fluffy pancakes served with syrup",
+            "category": "Dessert",
+            "foodType": "veg",
+            "cuisine": "american",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Waffles",
+            "description": "Crispy waffles topped with honey",
+            "category": "Dessert",
+            "foodType": "veg",
+            "cuisine": "belgian",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Churros",
+            "description": "Fried dough sticks with cinnamon sugar",
+            "category": "Dessert",
+            "foodType": "veg",
+            "cuisine": "spanish",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Samosa",
+            "description": "Fried pastry filled with spiced potatoes",
+            "category": "Snack",
+            "foodType": "veg",
+            "cuisine": "indian",
+            "basePriceUSD": 2
+        },
+        {
+            "name": "Chicken Samosa",
+            "description": "Crispy pastry filled with minced chicken",
+            "category": "Snack",
+            "foodType": "non_veg",
+            "cuisine": "indian",
+            "basePriceUSD": 3
+        },
+        {
+            "name": "Chocolate Cake",
+            "description": "Rich chocolate layered cake",
+            "category": "Dessert",
+            "foodType": "veg",
+            "cuisine": "continental",
+            "basePriceUSD": 4
+        },
+        {
+            "name": "Ice Cream Sundae",
+            "description": "Vanilla ice cream with chocolate syrup and nuts",
+            "category": "Dessert",
+            "foodType": "veg",
+            "cuisine": "american",
+            "basePriceUSD": 3
+        }
+    ]
 }

@@ -45,6 +45,15 @@ server.post('/supportTickets', (req, res, next) => {
     next();
 });
 
+server.post('/foodOrder', (req, res, next) => {
+    req.body.name = req.body.name;
+    req.body.category = req.body.category;
+    req.body.foodType = req.body.foodType;
+    req.body.cuisine = req.body.cuisine;
+    req.body.createdAt = new Date().toISOString();
+    next();
+});
+
 /**
  * Read isolation (GET all / one)
  */
