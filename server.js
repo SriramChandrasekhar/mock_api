@@ -68,6 +68,6 @@ server.use((req, res, next) => {
 
 server.use(router);
 
-server.listen(3000, () => {
-    console.log('Multi-tenant JSON Server running on 3000');
+server.listen(8888, () => {
+    console.log('Multi-tenant JSON Server running on 8888');
 });
