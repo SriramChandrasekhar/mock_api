@@ -20,6 +20,10 @@ server.get('/health', (req, res) => {
  */
 server.use((req, res, next) => {
 
+    if (req.path === '/health') {
+        return next();
+    }
+
     const tenantId = req.header('x-tenant-id');
 
     if (!tenantId) {
