@@ -40,7 +40,7 @@ server.use((req, res, next) => {
 server.post('/supportTickets', (req, res, next) => {
     req.body.title = req.body.title;
     req.body.description = req.body.description;
-    req.body.status = 'open';
+    req.body.status = req.body.status;
     req.body.createdAt = new Date().toISOString();
     next();
 });
