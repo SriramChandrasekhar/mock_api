@@ -24,6 +24,10 @@ server.use((req, res, next) => {
         return next();
     }
 
+    if (req.path === '/foodMenu') {
+        return next();
+    }
+
     const tenantId = req.header('x-tenant-id');
 
     if (!tenantId) {
